@@ -112,17 +112,17 @@ const Index = () => {
 
       <section className="relative overflow-hidden py-20 md:py-32">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-right bg-no-repeat"
           style={{
             backgroundImage: `url('https://cdn.poehali.dev/projects/43f293ab-0270-49a9-8d96-425339cab4e6/bucket/b686c284-4cbb-41b9-9203-a1d1913e8c39.jpg')`,
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/85 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-white/30"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="animate-fade-in">
+            <div className="animate-fade-in bg-white/80 backdrop-blur-sm p-8 rounded-2xl">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
                 Освой <span className="text-primary">прибыльные навыки</span> онлайн
               </h1>
